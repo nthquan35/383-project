@@ -1,0 +1,30 @@
+h3 {
+	margin: 2em;
+}
+
+form {
+	margin: 3em;
+}
+
+.position {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}	
+
+table {
+	border-collapse: collapse;
+}
+
+th, tbody > tr > td{
+	border: 3px solid black;
+	background-color: #8CA4DB;
+}
+
+td:first-child {
+    background-color: #00ff00; 
+}
+
+td {
+	text-align:center;
+}

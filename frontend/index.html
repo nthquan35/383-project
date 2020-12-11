@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+    	<meta charset="utf-8">
+		<title>Display Rectangles</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="./style.css"/>
+	</head>
+	<body>
+		<nav class="navbar navbar-dark bg-primary">
+		  <span class="navbar-brand mb-0 h1">Prime Decomposition</span>
+		</nav>
+
+		<h3>This app is generating <strong style="color: red">5</strong> random numbers in range of (100000000, 150000000) and break them down into primes.</h3>
+
+		<form id="form" action="http://localhost:3000/eval" method="POST">
+		  <div class="row">
+		    <div class="col text-center">
+		      <button id="submit" type="submit" class="btn btn-info btn-lg">Generate</button>
+		    </div>
+		  </div>
+		</form>
+		<div class="position">
+			<table>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+
+		<script type="text/javascript" src="./script.js"></script>
+	</body>
+
+</html>
